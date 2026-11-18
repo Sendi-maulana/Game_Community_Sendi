@@ -43,36 +43,5 @@ Tampilan menggunakan nuansa *retro/arcade* dengan font **Press Start 2P** dan **
 ├── image/              # Aset gambar dan video hero (opsional)
 │   └── hero.mp4        # Video latar — TIDAK disertakan dalam zip (lihat catatan)
 └── README.md           # Dokumentasi ini
-```
-
-## 🚀 Cara Menjalankan
-
-Tidak memerlukan instalasi atau build. Cukup:
-
-1. Unduh / ekstrak folder proyek.
-2. Buka `index.html` di browser, **atau** jalankan server lokal:
-
-```bash
-# Python
-python -m http.server 8000
-```
-
-Lalu buka `http://localhost:8000` di browser.
-
-> Jika ingin menampilkan video hero, pastikan file `image/hero.mp4` tersedia di folder `image/` (lihat catatan di atas).
-
-## 🛠️ Teknologi
-
-- HTML5
-- CSS3 (custom properties, animasi, responsive layout)
-- JavaScript (vanilla, tanpa framework)
-- Google Fonts: Press Start 2P & Chakra Petch
-
-## 📝 Catatan Tambahan
-
-- Seluruh konten bersifat **dummy/contoh** untuk keperluan tugas.
-- Dibuat oleh **Sendi Maulana** — 2403010088.
-
----
 
 **Ringkasan pengumpulan:** kumpulkan seluruh file `.html`, `style.css`, `script.js`, dan folder `image/` **kecuali `hero.mp4`** ke dalam satu file `.zip`. Video tidak di-zip karena ukurannya terlalu besar dan tidak akan mengecil secara berarti saat dikompres; sertakan terpisah hanya jika diperlukan.
