@@ -44,4 +44,7 @@ Tampilan menggunakan nuansa *retro/arcade* dengan font **Press Start 2P** dan **
 │   └── hero.mp4        # Video latar — TIDAK disertakan dalam zip (lihat catatan)
 └── README.md           # Dokumentasi ini
 
+---
+
 **Ringkasan pengumpulan:** kumpulkan seluruh file `.html`, `style.css`, `script.js`, dan folder `image/` **kecuali `hero.mp4`** ke dalam satu file `.zip`. Video tidak di-zip karena ukurannya terlalu besar dan tidak akan mengecil secara berarti saat dikompres; sertakan terpisah hanya jika diperlukan.
+
