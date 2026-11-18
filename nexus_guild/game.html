@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daftar game komunitas Nexus Guild: Mobile Legends, Dota 2, Valorant, PUBG Mobile, Honkai: Star Rail, dan Forza Horizon.">
+  <title>Game | Nexus Guild</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="sendi_skip" href="#sendi_main">Lewati ke konten utama</a>
+  <header id="sendi_header"></header>
+
+  <main id="sendi_main">
+    <section class="sendi_section">
+      <h1>Game komunitas</h1>
+
+      <div class="sendi_filter" role="group" aria-label="Filter genre game">
+        <button class="sendi_fbtn sendi_on" type="button" data-f="all" aria-pressed="true">Semua</button>
+        <button class="sendi_fbtn" type="button" data-f="MOBA" aria-pressed="false">MOBA</button>
+        <button class="sendi_fbtn" type="button" data-f="FPS" aria-pressed="false">FPS</button>
+        <button class="sendi_fbtn" type="button" data-f="RPG" aria-pressed="false">RPG</button>
+        <button class="sendi_fbtn" type="button" data-f="Racing" aria-pressed="false">Racing</button>
+      </div>
+
+      <div class="sendi_grid">
+        <div class="sendi_card sendi_photo" data-genre="MOBA" style="--photo: url('../image/mobile-legends.jpg')">
+          <div class="sendi_ico">⚔️</div>
+          <h3>Mobile Legends</h3>
+          <p>Squad 5 orang, latihan setiap Selasa malam.</p>
+        </div>
+        <div class="sendi_card sendi_photo" data-genre="MOBA" style="--photo: url('../image/DOTA2.png')">
+          <div class="sendi_ico">🛡️</div>
+          <h3>Dota 2</h3>
+          <p>Untuk yang suka strategi panjang dan teamfight besar.</p>
+        </div>
+        <div class="sendi_card sendi_photo" data-genre="FPS" style="--photo: url('../image/valorant-logo-png_seeklogo-379976.png')">
+          <div class="sendi_ico">🎯</div>
+          <h3>Valorant</h3>
+          <p>Scrim rutin Jumat, rank Gold ke atas.</p>
+        </div>
+        <div class="sendi_card sendi_photo" data-genre="FPS" style="--photo: url('../image/PUBG.png')">
+          <div class="sendi_ico">🔫</div>
+          <h3>PUBG Mobile</h3>
+          <p>Mabar squad tiap akhir pekan.</p>
+        </div>
+        <div class="sendi_card sendi_photo" data-genre="RPG" style="--photo: url('HSR.jpg')">
+          <div class="sendi_ico">🌟</div>
+          <h3>Honkai: Star Rail</h3>
+          <p>Diskusi build karakter dan guide event.</p>
+        </div>
+        <div class="sendi_card sendi_photo" data-genre="Racing" style="--photo: url('../image/forza-horizon-5-logo-png_seeklogo-406612.png')">
+          <div class="sendi_ico">🏎️</div>
+          <h3>Forza Horizon</h3>
+          <p>Balapan santai dan time trial mingguan.</p>
+        </div>
+        <div class="sendi_card sendi_photo" data-genre="MOBA" style="--photo: url('../image/LOL.jpg')">
+            <div class="sendi_ico">⚔️</div>
+            <h3>League</h3>
+            <p>Adu skill</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="sendi_footer"></footer>
+</body>
+</html>

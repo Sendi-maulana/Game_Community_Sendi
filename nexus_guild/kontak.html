@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gabung Nexus Guild, daftar turnamen, atau ajak kerja sama lewat formulir kontak resmi komunitas.">
+  <title>Kontak | Nexus Guild</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="sendi_skip" href="#sendi_main">Lewati ke konten utama</a>
+  <header id="sendi_header"></header>
+
+  <main id="sendi_main">
+    <section class="sendi_section">
+      <h1>Gabung atau kirim pesan</h1>
+      <p style="margin-bottom:24px">Mau daftar turnamen, jadi anggota, atau ajak kerja sama? Isi form ini, admin membalas dalam 2 hari.</p>
+
+      <form id="sendi_form" novalidate>
+        <label for="nama">Nama</label>
+        <input class="sendi_input" id="nama" name="nama" type="text" autocomplete="name" required aria-describedby="sendi_err_nama">
+        <div class="sendi_err" id="sendi_err_nama" aria-live="polite"></div>
+
+        <label for="email">Email</label>
+        <input class="sendi_input" id="email" name="email" type="email" autocomplete="email" required aria-describedby="sendi_err_email">
+        <div class="sendi_err" id="sendi_err_email" aria-live="polite"></div>
+
+        <label for="subjek">Keperluan</label>
+        <select class="sendi_input" id="subjek" name="subjek">
+          <option>Gabung guild</option>
+          <option>Daftar turnamen</option>
+          <option>Kerja sama</option>
+        </select>
+
+        <label for="pesan">Pesan</label>
+        <textarea class="sendi_input" id="pesan" name="pesan" rows="5" required aria-describedby="sendi_err_pesan"></textarea>
+        <div class="sendi_err" id="sendi_err_pesan" aria-live="polite"></div>
+
+        <button class="sendi_start" type="submit">KIRIM PESAN</button>
+        <div class="sendi_ok" id="sendi_ok" role="status" hidden></div>
+      </form>
+    </section>
+  </main>
+
+  <footer id="sendi_footer"></footer>
+</body>
+</html>
